@@ -1,10 +1,17 @@
-(kicad_pcb (version 20211014) (generator pcbnew)
+(kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
     (thickness 1.6)
   )
 
   (paper "A4")
+  (title_block
+    (title "UINIO-MCU-STC51")
+    (date "2023-12-27")
+    (rev "Version 0.0.1")
+    (company "电子技术博客 UinIO.com")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -41,14 +48,15 @@
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
-      (svguseinch false)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
       (svgprecision 6)
-      (excludeedgelayer true)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
